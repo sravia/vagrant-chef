@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#^syntax detection
+require 'certified'
+
+site 'https://supermarket.getchef.com/api/v1'
+
+# cookbook 'emacs24-nox'
+cookbook 'mysql', '= 4.1.2'
+cookbook 'java'
+cookbook 'ant'
